@@ -1,0 +1,7 @@
+Artificial Intelligence (AI) is a branch of computer science that aims to create machines capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
+
+Machine learning is a subset of AI that focuses on the development of algorithms that can learn from and make predictions on data. It is divided into supervised learning, where models are trained on labeled data, and unsupervised learning, where models find patterns in unlabeled data.
+
+Deep learning, a further subset of machine learning, uses neural networks with multiple layers to model complex patterns. It has been particularly successful in areas like image recognition, natural language processing, and speech recognition.
+
+Key concepts in AI include algorithms, data, computational power, and ethical considerations. As AI continues to advance, it raises important questions about privacy, bias, and the future of work.

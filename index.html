@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Generated Study Summaries Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI-Generated Study Summaries Portfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#sample-output">Sample Output</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to AI Study Summaries</h2>
+        <p>Discover efficient learning through AI-powered textbook summaries. Upload your textbooks and get concise, key-concept highlights instantly.</p>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>This portfolio showcases AI-generated study summaries from various textbooks. These summaries are created using advanced AI models to condense key concepts, making learning more efficient.</p>
+    </section>
+    <section id="features">
+        <h2>Features & Objectives</h2>
+        <ul>
+            <li><strong>AI-Powered Summarization:</strong> Generate concise summaries from textbook content using cutting-edge AI.</li>
+            <li><strong>Easy Upload:</strong> Simply upload .txt files of your textbooks for instant processing.</li>
+            <li><strong>Interactive Display:</strong> Toggle summaries on and off for better readability.</li>
+            <li><strong>Search & Filter:</strong> Quickly find specific summaries by keyword.</li>
+            <li><strong>Objective:</strong> To revolutionize study habits by providing quick, accurate summaries that save time and enhance understanding.</li>
+        </ul>
+    </section>
+    <section id="upload">
+        <h2>Upload Textbook for Summary</h2>
+        <input type="file" id="fileInput" accept=".txt">
+        <button id="generateBtn">Generate AI Summary</button>
+        <p id="status"></p>
+    </section>
+    <section id="sample-output">
+        <h2>Sample Output</h2>
+        <input type="text" id="searchInput" placeholder="Search summaries...">
+        <div class="summary">
+            <h3>Textbook 1: Introduction to AI</h3>
+            <button class="toggle">Show Summary</button>
+            <p class="summary-text" style="display: none;">Placeholder summary: AI is a field of computer science that aims to create machines capable of intelligent behavior. It involves algorithms, data, and computational power to simulate human intelligence.</p>
+        </div>
+        <div class="summary">
+            <h3>Textbook 2: Machine Learning Basics</h3>
+            <button class="toggle">Show Summary</button>
+            <p class="summary-text" style="display: none;">Placeholder summary: Machine learning is a subset of AI that enables systems to learn from data without being explicitly programmed. Key concepts include supervised and unsupervised learning.</p>
+        </div>
+        <div class="summary">
+            <h3>Textbook 3: Deep Learning Fundamentals</h3>
+            <button class="toggle">Show Summary</button>
+            <p class="summary-text" style="display: none;">Placeholder summary: Deep learning uses neural networks with multiple layers to model complex patterns. It's essential for tasks like image recognition and natural language processing.</p>
+        </div>
+        <div class="summary">
+            <h3>Textbook 4: Natural Language Processing</h3>
+            <button class="toggle">Show Summary</button>
+            <p class="summary-text" style="display: none;">Placeholder summary: NLP is a field of AI that focuses on the interaction between computers and human language. It involves tasks like text analysis, translation, and sentiment detection.</p>
+        </div>
+        <div class="summary">
+            <h3>Textbook 5: Computer Vision</h3>
+            <button class="toggle">Show Summary</button>
+            <p class="summary-text" style="display: none;">Placeholder summary: Computer vision enables machines to interpret and understand visual information from the world. Key applications include object detection, image classification, and autonomous vehicles.</p>
+        </div>
+        <div class="summary">
+            <h3>Textbook 6: Ethics in AI</h3>
+            <button class="toggle">Show Summary</button>
+            <p class="summary-text" style="display: none;">Placeholder summary: AI ethics addresses the moral implications of artificial intelligence, including bias, privacy, transparency, and the societal impact of AI technologies.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>For inquiries or feedback, reach out to us at <a href="mailto:contact@aiportfolio.com">contact@aiportfolio.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 AI Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

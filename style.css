@@ -1,0 +1,159 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+#home {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    color: #fff;
+    text-align: center;
+}
+
+#features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#features li {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background: #f9f9f9;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+}
+
+#upload {
+    text-align: center;
+}
+
+#upload input, #upload button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#upload button {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#upload button:hover {
+    background: #45a049;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.summary {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.summary:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.summary h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.toggle {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.toggle:hover {
+    background: #1976D2;
+}
+
+.summary-text {
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    header {
+        padding: 0.5rem;
+    }
+}
